@@ -153,7 +153,84 @@
 // result = students1.concat(students2);
 // console.log(result);
 
+//11-masala
 
+
+//12-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' }
+//   ];
+// students.forEach(function(value) {
+//     value.name = value.name.toUpperCase()
+// });
+// console.log(students);
+//13-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' }
+//   ];
+//   let a = [];
+// students.forEach(function(value){
+//     console.log(value.score);
+// });
+//14-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' }
+//   ];
+// let a = Object.keys(students[0])
+// console.log(a);
+
+//15-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' }
+//   ];
+// students.newStudent =  { name: 'Charlie', age: 23, score: 88, status: 'active' };
+// console.log(students);
+
+//16-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' }
+//   ];
+// for (const iterator of students) {
+//     // console.log(iterator.name);
+//     delete iterator.name === 'Bob'
+// }
+// console.log(students);//chala 
+// 17-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 19, score: 88, status: 'active' }
+//   ];
+//   let sum = 0 ;
+//   let res ;
+// for (const iterator of students) {
+//     if(iterator.age <= 20 ){
+//     sum += 1
+//     }
+//     if(sum = 0){
+//     res = true
+//     }else{
+//     res = false
+//     }
+// }
+// console.log(res);
+//18-masala
+// let students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' }
+//   ];
+//   let a = [] ;
+// for (const iterator of students) {
+//     a.push(iterator.status)
+// }
+// console.log(a);
 
 // ********* string metodlari **********
 //1-masala
